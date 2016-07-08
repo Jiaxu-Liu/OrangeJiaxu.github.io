@@ -76,7 +76,7 @@ window.onload = function(){
     function adminTime(message){
         admin.style.display = 'block';
         var ac = document.getElementsByClassName("admincontent");
-        console.log(ac[0]);
+        //console.log(ac[0]);
         ac[0].innerText = message.content;
         clearTimeout(time);
         time = setTimeout(function(){
@@ -87,7 +87,7 @@ window.onload = function(){
     
     function getAdminMessage(message){   
         adminTime(message); 
-        console.log("1");
+        //console.log("1");
     }
     
     my_socket.on('new message', function(message){
