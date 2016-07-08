@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: dimgray;
+}
+
+
+.notice{
+    font-family: 华文琥珀;
+    font-size:80px;
+    margin-top: 10px;
+}
+
+.account{
+    margin-top: 50px;
+    position: absolute;
+    right: 5%;
+    width:160px;
+    height:80px;
+    background-image: url(../image/secourse.jpg);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: left;
+    padding-left: 85px;
+    font-family: 华文新魏;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+#thirdMessage{
+    margin-top: 160px;
+    margin-left: 5%;
+    height: 180px;
+    width: 90%;
+    background-color: darkgrey;
+}
+
+#secondMessage, #firstMessage{
+    margin-top: 30px;
+    margin-left: 5%;
+    height: 180px;
+    width: 90%;
+    background-color: darkgrey;
+}
+
+.photo{
+    height: 120px;
+    width: 120px;
+    /*background-image: url(../image/weixin.jpg);*/
+    background-size: cover;
+}
+
+.nickname{
+    margin-top: 10px;
+    height: 50px;
+    width:120px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 华文行楷;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+
+.content{
+    margin-left: 130px;
+    margin-top: -150px;
+    height: 120px;
+    overflow: hidden;
+    font-family: 华文新魏;
+    font-size: 40px;
+}
+
+#adminMessage{
+    position: absolute;
+    height: 180px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 160px;
+    display: none;
+    background-color: white;
+}
+
+#adminMessage .photo{
+    background-image: url(../image/weixin.jpg);
+}
+
+#adminMessage .nickname{
+    font-size: 50px;
+}
+
+
+
+
+
